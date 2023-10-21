@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "MV3 內容腳本範例a",
+    "name": "UnlimitedTextGPT",
     "version": "1.0",
-    "description": "使用 MV3 修改網頁標題",
+    "description": "This feature enables limitless text input into ChatGPT for bulk text transformation, particularly useful for software developers dealing with language-specific refactoring tasks.",
     "permissions": ["activeTab"],
     "content_scripts": [
       {
