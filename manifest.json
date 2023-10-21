@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "MV3 內容腳本範例a",
+    "version": "1.0",
+    "description": "使用 MV3 修改網頁標題",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
