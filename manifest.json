@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
     "name": "UnlimitedTextGPT",
-    "version": "1.0",
-    "description": "This feature enables limitless text input into ChatGPT for bulk text transformation, particularly useful for software developers dealing with language-specific refactoring tasks.",
-    "permissions": ["activeTab"],
+    "version": "1.1",
+    "description": "Enables limitless text input to ChatGPT for bulk transformations, ideal for devs in language-specific refactoring.",
+    "permissions": [],
     "content_scripts": [
       {
         "matches": ["https://chat.openai.com/*"],
